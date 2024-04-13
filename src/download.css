@@ -1,0 +1,38 @@
+.app-promo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: url(https://assets.pharmeasy.in/apothecary/images/downloadBanner.webp?dim=1024x0&q=100) rgb(224,255,248);
+    background-size: cover;
+}
+
+.app-promo > h1{
+    font-size: 38px;
+}
+
+.app-promo > h3{
+    line-height: 80px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.app-promo > div{
+    display: flex;
+    gap: 50px;
+}
+
+.app-promo img{
+    height: 50px;
+    cursor: pointer;
+}
+@media (max-width: 768px)  {
+    .app-promo {
+        width: 100%;
+    }
+    .app-promo  div > img{
+        height: 36px;
+        margin: auto;
+        display: inline-block;
+    }
+}
